@@ -49,6 +49,6 @@ print(response.status_code)
 
 ## Use DELETE to delete the repo and output the status code
 ```
-esponse = requests.delete("https://api.github.com/repos/aishwaryasarath/test_repo_python_API_POST", headers=headers)
+response = requests.delete("https://api.github.com/repos/aishwaryasarath/test_repo_python_API_POST", headers=headers)
 print(response.status_code)
 ```
